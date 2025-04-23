@@ -12,7 +12,7 @@ Cluster 2 = clonal
 
 Cluster 1 = subclonal
 
-⚠️ Note: When only a single cluster is identified in a sample, all SVs are assigned to cluster 1 by default — this does not necessarily indicate subclonality.
+⚠ Note: When only a single cluster is identified in a sample, all SVs are assigned to cluster 1 by default — this does not necessarily indicate subclonality.
 Additionally, in some cases, two distinct clusters may be identified, but both have a mean CCF > 0.7, indicating potential clonal peaks.
 
 This section also counts the number of SVs filtered out under different criteria (e.g., exceeding maximum CN, invalid CN state, etc.).
