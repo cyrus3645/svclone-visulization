@@ -20,3 +20,5 @@ This section also counts the number of SVs filtered out under different criteria
 B. Fisher’s Exact Tests
 Fisher’s Exact Tests are applied only to samples where two clusters were identified, to assess whether shared SVs (across all samples) are significantly enriched in the clonal group compared to SVs found in fewer samples.
 
+Heatmap Generation (heatmap_gen.ipynb)
+This notebook generates heatmaps to visually compare the performance of different SVclone parameter settings. It takes as input the results from selected Fisher’s Exact Tests, allowing for clear side-by-side comparisons across multiple trial configurations. The heatmaps summarize significance patterns across samples and settings, helping to highlight which configurations yield the most biologically meaningful clustering results.
